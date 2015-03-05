@@ -1,0 +1,45 @@
+.top{
+  background: #00b2ca;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  height: 200px;
+  z-index: 10;
+}
+
+.top .data{
+  color: white;
+  position: fixed;
+  top: 120px;
+  left: 25%;
+  font-family: 'Roboto Slab', serif;
+}
+
+.section-container{
+  background: #fff;
+  z-index: 5;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 195;
+}
+
+.prof-img{
+  background: purple;
+  position: fixed;
+  top: 100px;
+  left: 10%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px white;
+}
+
+@media all and (max-width: 700px) {
+    #data-container{
+        margin-left: 0px;
+        left: 220px;
+    }
+}

@@ -10,7 +10,7 @@ app.config([ '$routeProvider',
 		$routeProvider
 			.when('/',
 				templateUrl: "home/index.html",
-				css: 'assets/templates/home/home.css'
+				css: 'assets/templates/home/landing.css'
 			)
 			.when('/sing_up',
 				templateUrl: "users/new.html"
