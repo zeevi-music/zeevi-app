@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  #prepend_view_path 'app/assets/modules'
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
   # GET /users

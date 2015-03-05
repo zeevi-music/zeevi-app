@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
-	prepend_view_path 'app/assets/modules/templates'
+	prepend_view_path 'app/assets/modules'
 	
-	def home 
+	def index 
 		
 	end
 end

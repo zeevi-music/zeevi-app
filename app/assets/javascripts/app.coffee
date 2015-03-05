@@ -9,7 +9,7 @@ app.config([ '$routeProvider',
 	($routeProvider)->
 		$routeProvider
 			.when('/',
-				templateUrl: "home/home.html",
+				templateUrl: "home/index.html",
 				css: 'assets/templates/home/home.css'
 			)
 			.when('/sing_up',
