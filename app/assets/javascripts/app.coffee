@@ -8,7 +8,7 @@ app.config([ '$routeProvider',
 	($routeProvider)->
 		$routeProvider
 			.when('/',
-				templateUrl: "index.html"
+				templateUrl: "home/home.html"
 			)
 			.when('/sing_up',
 				templateUrl: "users/new.html"

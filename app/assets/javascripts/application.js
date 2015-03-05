@@ -17,3 +17,4 @@
 //= require angular-rails-templates
 //= require_tree .
 
+//= require_tree ../modules/templates
