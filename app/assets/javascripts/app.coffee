@@ -1,14 +1,16 @@
 app = angular.module('app',[
 	'templates',
 	'ngRoute',
-	'controllers'
+	'controllers',
+	'door3.css'
 ])
 
 app.config([ '$routeProvider',
 	($routeProvider)->
 		$routeProvider
 			.when('/',
-				templateUrl: "home/home.html"
+				templateUrl: "home/home.html",
+				css: 'assets/templates/home/home.css'
 			)
 			.when('/sing_up',
 				templateUrl: "users/new.html"
