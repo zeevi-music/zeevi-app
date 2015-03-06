@@ -10,14 +10,19 @@ app.config([ '$routeProvider',
 		$routeProvider
 			.when('/',
 				templateUrl: "home/index.html",
-				css: 'assets/templates/home/landing.css'
+				css: ['assets/templates/home/style.css','assets/templates/home/normalize.css','assets/templates/home/foundation.css','assets/templates/home/landing.css' ]
 			)
-			.when('/sing_up',
-				templateUrl: "users/new.html"
-				controller: 'singUpController'
+			.when('/signup',
+				templateUrl: "signup/signup.html",
+				css: ['assets/templates/home/signup.css','assets/templates/home/style.css' ,'assets/templates/home/normalize.css','assets/templates/home/foundation.css']
 			)
 			.when('/login',
-				templateUrl: "login.html"
+				templateUrl: "login/login.html",
+				css: ['assets/templates/login/login.css','assets/templates/home/style.css','assets/templates/home/normalize.css','assets/templates/home/foundation.css' ]
+			)
+			.when('/profile',
+				templateUrl: "profiles/profile.html",
+				css: ['assets/templates/profiles/profile.css', 'assets/templates/profiles/bar.css','assets/templates/profiles/bar-style.css']
 			)
 ])
 
